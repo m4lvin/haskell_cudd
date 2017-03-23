@@ -14,6 +14,9 @@ Also, for a higher level interface in the style of the [ersatz](https://hackage.
 
 Either install CUDD 3.0.0 using your system's package manager or download and install CUDD from here: http://vlsi.colorado.edu/~fabio/.
 
+Alternatively, have a look at the Makefile and run `make cudd3`.
+This will download, build and install CUDD to "/usr/local/lib" and "/usr/local/include".
+
 Then:
 
 `cabal install cudd`

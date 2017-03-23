@@ -1,0 +1,4 @@
+3c3
+< include_HEADERS = cudd/cudd.h
+---
+> include_HEADERS = cudd/cudd.h epd/epd.h mtr/mtr.h st/st.h util/util.h config.h
